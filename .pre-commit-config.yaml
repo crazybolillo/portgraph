@@ -1,0 +1,18 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+      -  id: trailing-whitespace
+      -  id: end-of-file-fixer
+  - repo: https://github.com/psf/black
+    rev: 23.1.0
+    hooks:
+      - id: black
+  - repo: https://github.com/PyCQA/isort
+    rev: v5.11.3
+    hooks:
+      - id: isort
+  - repo: https://github.com/PyCQA/pylint
+    rev: v2.16.2
+    hooks:
+      - id: pylint

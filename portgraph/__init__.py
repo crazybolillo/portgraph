@@ -1,1 +1,1 @@
-from .portgraph import portgraph 
+from .portgraph import Portgraph
